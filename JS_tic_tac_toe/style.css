@@ -1,0 +1,71 @@
+body {
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-weight: 200;
+	line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: inherit; }
+
+#player {
+	font-size: 20px;
+}
+
+table {
+	margin: 20px 0;
+	border-spacing: 0;
+}
+
+.row:hover {
+	background-color:#F011C3;
+}
+
+#tictac {
+	text-align: center;
+	height: 300px;
+	width: 300px;
+}
+
+#tictac td {
+	cursor: pointer;
+	width: 33%;
+	height: 33%;
+	border: 1px solid;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#tictac .o {
+	background-image: url('targeto.gif') !important;
+}
+
+#tictac .x {
+	background-image: url('targetx.gif') !important;
+}
+
+/* images before being played */
+#upper_left,
+#middle_left,
+#lower_left {
+	background: url('t.gif');
+}
+
+#upper_middle {
+	background: url('i.gif');
+}
+
+#upper_right,
+#middle_right {
+	background: url('c.gif');
+}
+
+#middle_middle {
+	background: url('a.gif');
+}
+
+#lower_middle { 
+	background: url('o.gif');
+}
+
+#lower_right {
+	background: url('e.gif');
+}
